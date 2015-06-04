@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1433454279 source:c:\users\raydelto\diccionarios\main.cpp
+	<iostream>
+	"Diccionario.h"
+	<sstream>
+
+1433452687 c:\users\raydelto\diccionarios\include\diccionario.h
+	<string>
+	"Lista.h"
+
+1433452687 c:\users\raydelto\diccionarios\include\lista.h
+	"Item.h"
+
+1433452687 c:\users\raydelto\diccionarios\include\item.h
+	<string>
+
+1433454399 source:c:\users\raydelto\diccionarios\src\diccionario.cpp
+	"Diccionario.h"
+	<iostream>
+
+1433449831 source:c:\users\raydelto\diccionarios\src\item.cpp
+	"Item.h"
+
+1433451346 source:c:\users\raydelto\diccionarios\src\lista.cpp
+	"Lista.h"
+
