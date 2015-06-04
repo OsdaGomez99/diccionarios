@@ -2,12 +2,12 @@
 
 Lista::Lista():_primero(NULL), _ultimo(NULL)
 {
-    //ctor
+
 }
 
 Lista::~Lista()
 {
-    //dtor
+
 }
 
 void Lista::agregar(Item* item)

@@ -23,13 +23,14 @@ void generarValores(Diccionario* diccionario, int cantidad)
 
 int main()
 {
-    Diccionario* diccionario = new Diccionario(13);
+    Diccionario* diccionario = new Diccionario(23);
+    //Insertando data de prueba
     diccionario -> agregar(new Item("Raydelto","Hernandez"));
     diccionario -> agregar(new Item("Juan","Lopez"));
-    diccionario -> agregar(new Item("Ricky","Martin"));
+    diccionario -> agregar(new Item("Celines","Vasquez"));
     diccionario -> agregar(new Item("Gato","Pascual"));
     generarValores(diccionario, 15);
-    Item* item = diccionario -> obtener("Ricky");
+    Item* item = diccionario -> obtener("Celines");
     cout << item ->getValor() << endl;
     cout << endl;
     diccionario->mostrarMapa();

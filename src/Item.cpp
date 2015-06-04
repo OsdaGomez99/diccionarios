@@ -3,7 +3,7 @@
 
 Item::~Item()
 {
-    //dtor
+
 }
 
 Item::Item(std::string llave, std::string valor) : _llave(llave) , _valor(valor) , _siguiente(NULL)

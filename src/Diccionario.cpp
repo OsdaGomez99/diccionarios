@@ -4,11 +4,12 @@ using namespace std;
 
 Diccionario::~Diccionario()
 {
-    //dtor
+
 }
 
 Diccionario::Diccionario()
 {
+    //Antes de C++11 no es posible llamar un constructor desde otro, por esto el código duplicado
     _tamano = 13;
     _cubetas = new Lista[13];
 
@@ -48,9 +49,7 @@ int Diccionario::codificar(std::string llave)
     {
         codigo += llave[i];
     }
-    int index = (codigo * llave.size()) % _tamano;
-//    cout << "codificar:" << index << endl;
-    return index;
+    return codigo % _tamano;
 }
 
 void Diccionario::mostrarMapa()
